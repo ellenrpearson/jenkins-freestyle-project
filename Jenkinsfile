@@ -8,13 +8,13 @@ pipeline{
 
                 steps{
 
-                    sh "echo ~/Hello from the Jenkins job named: ${create_artifact}"
+                    sh "echo ~/Hello from the Jenkins job"
 
                 }
 
             }
 
-            stage('Make Files'){
+         stage('Make Files'){
 
                 steps{
 
